@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "rsilveirafh-plugins",
-  "description": "Plugins do Claude Code de Ricardo Silveira para pesquisa acadêmica e ciência de dados",
+  "description": "Plugins do Claude Code de Ricardo Silveira para pesquisa acadêmica e organização pessoal",
   "owner": {
     "name": "Ricardo Silveira",
     "url": "https://github.com/rsilveirafh"
@@ -16,6 +16,16 @@
       "description": "Revisa projetos de pesquisa como uma banca ou comitê avaliador (TCC, iniciação científica, mestrado, doutorado, pós-doutorado, edital de fomento, concurso docente): /banca-simulada:revisar",
       "category": "pesquisa",
       "homepage": "https://github.com/rsilveirafh/banca-simulada"
+    },
+    {
+      "name": "memoria",
+      "source": {
+        "source": "github",
+        "repo": "rsilveirafh/memoria-skills"
+      },
+      "description": "Vault Markdown como memória com portão humano: o agente propõe (/memoria:consolidar, /memoria:assimilar), você revisa, e só /memoria:gravar aplica",
+      "category": "produtividade",
+      "homepage": "https://github.com/rsilveirafh/memoria-skills"
     }
   ]
 }
