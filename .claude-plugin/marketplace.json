@@ -26,6 +26,16 @@
       "description": "Vault Markdown como memória com portão humano: o agente propõe (/memoria:consolidar, /memoria:assimilar), você revisa, e só /memoria:gravar aplica",
       "category": "produtividade",
       "homepage": "https://github.com/rsilveirafh/memoria-skills"
+    },
+    {
+      "name": "emprego",
+      "source": {
+        "source": "github",
+        "repo": "rsilveirafh/emprego"
+      },
+      "description": "Busca de emprego com o perfil-verdade como fonte única: /emprego:perfil monta e mantém os fatos da carreira; buscar, triar, candidatar, entrevista e retro só usam o que está lá. O agente propõe, você decide e envia",
+      "category": "produtividade",
+      "homepage": "https://github.com/rsilveirafh/emprego"
     }
   ]
 }
